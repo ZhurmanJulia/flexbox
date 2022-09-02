@@ -2,7 +2,7 @@
 	padding: 20px;
 	margin: 20px;
 	border: 1px solid #000;
-	width: 600px;
+	width: 300px;
 }
 
 img {
@@ -12,7 +12,7 @@ img {
 .box {
 	border: 3px solid #ccc;
 	margin-bottom: 50px;
-	height: 500px;
+	height: 800px;
 
 	display: flex;
 	/*flex-direction: row-reverse; начало справа*/
@@ -20,4 +20,18 @@ img {
 	/*flex-wrap: wrap; если элементы не влазят, то переходят на новую строку*/
 	/*align-items: center; расположение по вертикали*/
 	/*align-items: baseline; по высоте строки*/
+
+	/*flex-wrap: wrap;
+	align-items: center;
+	align-content: center; позиционирование элементов, которые располагаются в несколько строк*/
+}
+
+.text-3 {
+	align-self: center;
+	order: -1;
+	margin-left: auto;
+}
+
+.text-2 {
+	order: -2;
 }
