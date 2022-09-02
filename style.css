@@ -2,7 +2,7 @@
 	padding: 20px;
 	margin: 20px;
 	border: 1px solid #000;
-	width: 300px;
+	width: 600px;
 }
 
 img {
@@ -13,6 +13,11 @@ img {
 	border: 3px solid #ccc;
 	margin-bottom: 50px;
 	height: 500px;
-	
+
 	display: flex;
+	/*flex-direction: row-reverse; начало справа*/
+	/*justify-content: space-evenly;*/
+	/*flex-wrap: wrap; если элементы не влазят, то переходят на новую строку*/
+	/*align-items: center; расположение по вертикали*/
+	/*align-items: baseline; по высоте строки*/
 }
